@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "GoodDog";
+  src: url(fonts/GOODDC__.TTF) format("truetype");
+}
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #87a2ff;
+  line-height: 1.6;
+}
+
+/* Container centralizado */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #87a2ff;
+  padding: 1px 0;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 50px;
+  font-family: GoodDog;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Seção Hero */
+.hero {
+  padding: 60px 0;
+  text-align: center;
+  background-image: url("images/home.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.espacamento {
+  height: 50px;
+}
+.btn {
+  background-color: #87a2ff;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Seção de Serviços */
+.services {
+  padding: 60px 0;
+}
+
+.services h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: #87a2ff;
+}
+
+.card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 60px;
+  width: 30%;
+  min-width: 250px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.card h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #87a2ff;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
